@@ -1,0 +1,68 @@
+/* Generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  .section {
+    height: 100vh;
+    background-image: url("../style/images/abaco.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .section1 {
+    border-left: 3px solid #492e25;
+    border-bottom: 3px solid #492e25;
+    border-top: 3px solid #e3cd9e;
+    border-right: 3px solid #e3cd9e;
+    background-image: url("./images/madera.jpeg");
+    border-radius: 10px;
+    margin: 20vh 0;
+    padding: 2vw;
+    width: clamp(230px, 20%, 240px);
+    height: clamp(350px, 70%, 360px);
+
+    .cabecera {
+      font-family: "Orbitron", sans-serif;
+    }
+    p {
+      font-weight: 700;
+    }
+
+    .panel {
+      border-radius: 3px;
+      height: 1.5vw;
+      background-color: #492e25;
+    }
+    .lines {
+      width: 33%;
+      height: 100%;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+    }
+    .screen {
+      border-radius: 3px;
+      padding: 0.5vw;
+      width: 100%;
+      font-family: "Orbitron", sans-serif;
+      font-size: x-large;
+      display: flex;
+      justify-content: flex-end;
+      background-color: #d0e3e7;
+    }
+
+    .fila1 input,
+    .fila2 input,
+    .fila3 input,
+    .fila4 input {
+      font-weight: bold;
+      width: 20%;
+      border-radius: 5px;
+      border-color: antiquewhite;
+
+      background-image: url("./images/gold-ivory.jpg");
+    }
+  }
+}
